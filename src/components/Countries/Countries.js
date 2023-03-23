@@ -11,7 +11,7 @@ const Countries = () => {
     }, [])
     return (
         <div >
-            <h1>This is the word Countries: {countries.length}</h1>
+            <h1>Hello to the word country : {countries.length}</h1>
             <div className='countries-container'>
                 {
                     countries.map(country => <Country
