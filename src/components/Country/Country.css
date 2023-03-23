@@ -1,0 +1,7 @@
+.country{
+    border: 2px solid gray;
+    background-color: azure;
+    margin:10px;
+    padding: 20px;
+    border-radius: 5px;
+}
