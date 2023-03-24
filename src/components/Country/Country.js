@@ -1,4 +1,5 @@
 import React from 'react';
+import Count from '../Count/Count';
 import './Country.css'
 
 const Country = (props) => {
@@ -7,7 +8,8 @@ const Country = (props) => {
     // console.log(props.country);
     return (
         <div className='country'>
-            <h1>name : {name.common}</h1>
+            <h3>Name : {name.common}</h3>
+            <Count></Count>
             <h5>population :{population}</h5>
             <p><small>Area : {area}</small></p>
             <img src={flags.png} alt="flags" />
